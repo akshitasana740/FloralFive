@@ -1,0 +1,79 @@
+#about-head{
+    background-color: pink;
+    color: white;
+    height: 4rem;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    font-size: 35px;
+}
+#about-content{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: repeat(3,auto);
+    grid-gap:5px;
+}
+#grid1 img{
+    height: 24rem;
+    width: 40rem;
+}
+.grid-content{
+    background-color: pink;
+    height: 24rem;
+}
+.grid-content h2{
+    text-align: center;
+    font-style: bold;
+    font-size: 30px;
+}
+.grid-content div{
+    font-size: 20px;
+    margin-left: 1rem;
+    margin-right: 4rem;
+}
+#grid4 img{
+    height: 24rem;
+    width: 38rem;
+}
+#grid5 img{
+    height: 24rem;
+    width: 40rem;
+}
+.text{
+    height:24rem;
+    width: 40rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 24.2rem;
+    font-style: bold;
+    background: rgba(245, 239, 239, 0.6);
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.text:hover{
+    opacity: 1;
+}
+.text h2{
+    color: rgb(239, 44, 76);
+    font-size: 40px;
+}
+.text a{
+    text-decoration: none;
+    background-color: rgb(239, 44, 76);
+    color: white;
+    padding:4px;
+    border-radius: 6px;
+}
+#grid1,#grid4,#grid5{
+    height: 0rem;
+}
+.text a:hover{
+    background-color:pink;
+    color: azure;
+}

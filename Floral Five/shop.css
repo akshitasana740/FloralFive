@@ -1,0 +1,83 @@
+.shop{
+    margin: 1rem;
+    margin-top: 4rem;
+    margin-left: 0rem;
+}
+#shop-head{
+    background-color: pink;
+    color: white;
+    height: 4rem;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    font-size: 35px;
+    background-color: pink;
+    height: 3rem;
+}
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-template-rows: 97%;
+    column-gap: 0.3rem;
+}
+.shop-content img{
+    width:17rem;
+    height:18rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.shop-content h3{
+    text-align: center;
+    font-size: 25px;
+    color: pink;
+    position: relative;
+    top: 7rem;
+}
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+.flip-box:hover{
+    transform: rotateY(180deg);
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-box-front img{
+    height: 19rem;
+    width: 17rem;
+}
+.flip-box-back {
+    background: rgba(244, 185, 207,0.6);
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 19rem;
+    width: 17rem;
+    position: relative;
+    left: 1rem;
+    bottom: 19.2rem;
+    text-align: center;
+    font-size: 18px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-box-back a{
+    text-decoration: none;
+    font-style: bold;
+    color: white;
+    font-size: 23px;
+}
+.flip-box-back a:hover{
+    background-color: rgb(234, 146, 194);
+    border-radius: 6px;
+    padding: 5px;
+}

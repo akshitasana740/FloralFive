@@ -1,0 +1,38 @@
+footer{
+    margin-top: 8rem;
+}
+#footer-content{
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color:#eb98ef;
+    padding-top: 4rem;
+    text-align: center;
+    width: 77rem;
+}
+#footer2 ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+#footer2 ul li{
+    font-size: 27px;
+    margin-right: 6rem;
+}
+#footer2 ul li:hover{
+    color: hotpink;
+}
+#suggestions{
+    padding-right: 12rem;
+    padding-bottom: 10rem;
+}
+#footer3{
+    font-size:25px;
+}
+#name,#email{
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+}
